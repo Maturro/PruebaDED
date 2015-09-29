@@ -4,23 +4,30 @@
  * and open the template in the editor.
  */
 
+package listas;
+
 /**
  *
- * @author Sala_
+ * @author Admin
  */
 public class Numero {
-    private Numero miNumero;
+    private int N;
     private int prioridad;
 
     public Numero() {
     }
 
-    public Numero getMiNumero() {
-        return miNumero;
+    public Numero(int N, int prioridad) {
+        this.N = N;
+        this.prioridad = prioridad;
     }
 
-    public void setMiNumero(Numero miNumero) {
-        this.miNumero = miNumero;
+    public int getN() {
+        return N;
+    }
+
+    public void setN(int N) {
+        this.N = N;
     }
 
     public int getPrioridad() {
@@ -30,7 +37,6 @@ public class Numero {
     public void setPrioridad(int prioridad) {
         this.prioridad = prioridad;
     }
-    
     
     
 }
