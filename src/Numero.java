@@ -9,6 +9,28 @@
  * @author Sala_
  */
 public class Numero {
-    int numero;
-    int prioridad;
+    private Numero miNumero;
+    private int prioridad;
+
+    public Numero() {
+    }
+
+    public Numero getMiNumero() {
+        return miNumero;
+    }
+
+    public void setMiNumero(Numero miNumero) {
+        this.miNumero = miNumero;
+    }
+
+    public int getPrioridad() {
+        return prioridad;
+    }
+
+    public void setPrioridad(int prioridad) {
+        this.prioridad = prioridad;
+    }
+    
+    
+    
 }
