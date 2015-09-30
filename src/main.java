@@ -62,5 +62,22 @@ public class main {
         System.out.println("----------------reverse 2---------------");
         p.reverse2();
         System.out.println(p);
+        
+        
+        Lista L = new Lista();
+        L.add(10, 1);
+        L.add(20, 2);
+        L.add(30, 1);
+        L.add(40, 3);
+        L.add(50, 1);
+        
+        
+        
+        
+        System.out.println(L.moveToQueue());
+                
+        
+        
+        
     }
 }
